@@ -62,7 +62,7 @@ o.lazyredraw = true
 o.list = true
 
 -- Set the chars to be used.
-o.listchars = "tab:ﲖ ,space:∙,lead:•,trail:•"
+--o.listchars = "tab:ﲖ ,space:∙,lead:•,trail:•"
 
 -- Allow using a mouse. a = in all modes.
 o.mouse = "a"
@@ -123,7 +123,7 @@ o.undofile = true
 o.updatetime = 300
 
 -- Allow other keys to wrap around line breaks. (Bad explantation; check docs.)
-o.whichwrap = "<,>,h,l"
+o.whichwrap = "<,>,[,]"
 
 -- Make a backup before overwriting a file.  The backup is removed after the file was successfully written, unless the 'backup' option is also on.
 o.writebackup = true

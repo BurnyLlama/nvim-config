@@ -38,3 +38,6 @@ keymap("x", "<A-Up>",   ":move '<-2<CR>gv-gv", opts)
 -- Ctrl + o yields newline.
 keymap("i", "<C-o>", "<esc>o", opts)
 keymap("i", "<C-S-o>", "<esc>O", opts) -- HOW WORKS?!?!?!?!?!?!
+
+-- Shift + U redos...
+keymap("n", "<S-u>", "<C-R>", opts)
